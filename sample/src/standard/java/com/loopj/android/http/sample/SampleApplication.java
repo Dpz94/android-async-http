@@ -18,7 +18,7 @@ public class SampleApplication extends Application {
 
     @TargetApi(Build.VERSION_CODES.HONEYCOMB)
     private void setStrictMode() {
-        Log.d(LOG_TAG, "Enabling StrictMode policy over Sample application");
+        Log.d(LOG_TAG, "Enabling StrictMode policy over my application");
         StrictMode.setThreadPolicy(new StrictMode.ThreadPolicy.Builder()
                 .detectAll()
                 .penaltyLog()
